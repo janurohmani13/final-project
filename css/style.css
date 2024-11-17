@@ -1,0 +1,286 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    max-width: 1200px; /* Sesuaikan dengan kebutuhan */
+    margin: 0 auto;    /* Mengatur navbar berada di tengah */
+}
+
+.navbar-brand img {
+    height: 100px; /* Increased from 50px to 80px */
+    width: 200px; /* Adjusted navbar brand image width for a less wide header */
+}
+
+.nav-link {
+    color: #333 !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color:#020e49; 
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color:  #eea004ee; /* Atur warna sesuai tema Anda */
+    border-top: 2px solid  #eea004ee; /* Tambahkan garis bawah jika diperlukan */
+}
+
+
+.btn-primary {
+    background-color: #eea004ee;
+    border-color:#eea004ee;
+}
+
+.btn-primary:hover {
+    background-color:#020e49;
+    border-color  :#020e49;
+}
+
+.hero-section {
+    background: url('hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.feature-box {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #fff;
+}
+
+.divider {
+    height: 2px;
+    background-color: #eea004ee;
+    margin: 20px 0;
+}
+
+.learning-options {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.learning-option {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.learning-option:hover {
+    transform: translateY(-5px);
+}
+
+.learning-option img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.popup.active {
+    display: block;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.popup-overlay.active {
+    display: block;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+.navbar-brand img {
+    height: 100px; /* Increased from 50px to 80px */
+}
+.nav-link {
+    color: #333 !important;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color:  #eea004ee; 
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#020e49;
+    margin-bottom: 2rem;
+}
+.about-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.feature-box {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+.feature-box:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+.feature-icon {
+    font-size: 3rem;
+    color: #020e49;
+    margin-bottom: 1rem;
+}
+.orange-box {
+    background-color: #eea004ee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand img {
+    height: 100px; /* Increased from 50px to 80px */
+}
+.nav-link {
+    color: #333 !important;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: #eea004ee;
+}
+.package-card {
+    border: none;
+    transition: transform 0.3s;
+}
+.package-card:hover {
+    transform: translateY(-10px);
+}
+.package-header {
+    background-color: #eea004ee;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.package-body {
+    padding: 20px;
+}
+.package-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #eea004ee;
+}
+.feature-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.feature-list li {
+    margin-bottom: 10px;
+}
+.feature-list li:before {
+    content: "\f00c";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: #eea004ee;
+}
+.package-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.package-card {
+    border: none;
+    transition: transform 0.3s;
+}
+.package-card:hover {
+    transform: translateY(-10px);
+}
+.package-header {
+    background-color: #eea004ee;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.package-body {
+    padding: 20px;
+}
+.package-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #eea004ee;;
+}
+.feature-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.feature-list li {
+    margin-bottom: 10px;
+}
+.feature-list li:before {
+    content: "\f00c";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: #eea004ee;;
+}
+.package-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.package-title {
+background-color: #eea004ee; /* Ganti dengan warna background */
+background-size: cover;
+background-position: center;
+color: black;
+padding: 20px;
+border-radius: 8px;
+font-weight: bold;
+}
+
